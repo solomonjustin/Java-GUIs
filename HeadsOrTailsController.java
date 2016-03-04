@@ -13,7 +13,7 @@ import javafx.scene.image.ImageView;
 
 
 public class HeadsOrTailsController {
-	private int userPoints = 0, cpuPoints = 0;
+	private int userPoints = 0, cpuPoints = 0; //runningtotal
 	private Image heads, tails;
     @FXML
     private Button btnFlip;
