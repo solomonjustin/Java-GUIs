@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="114.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Lab2.LatinToEnglishController">
+  <children>
+    <Button fx:id="btnTranslate" layoutX="281.0" layoutY="26.0" mnemonicParsing="false" onAction="#translate" prefHeight="62.0" prefWidth="105.0" text="Translate" />
+    <Label fx:id="lblTranslation" layoutX="14.0" layoutY="57.0" text="" />
+    <TextField fx:id="txtLatin" layoutX="14.0" layoutY="26.0" prefWidth="200.0" />
+    <Label layoutX="14.0" layoutY="6.0" text="Latin Word" />
+  </children>
+</AnchorPane>
