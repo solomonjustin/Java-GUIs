@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="292.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="HOT.HeadsOrTailsController">
+  <children>
+    <Button fx:id="btnFlip" layoutX="211.0" layoutY="158.0" mnemonicParsing="false" onAction="#flip" text="Flip Coin" />
+    <Label fx:id="lblSide" layoutX="152.0" layoutY="31.0" prefHeight="22.0" prefWidth="133.0" text="" />
+    <ImageView fx:id="imgSide" fitHeight="55.0" fitWidth="73.33333333333333" layoutX="73.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+    <RadioButton fx:id="rbHeads" layoutX="120.0" layoutY="84.0" mnemonicParsing="false" text="Heads">
+      <toggleGroup>
+        <ToggleGroup fx:id="sides" />
+      </toggleGroup>
+    </RadioButton>
+    <RadioButton fx:id="rbTails" layoutX="120.0" layoutY="110.0" mnemonicParsing="false" text="Tails" toggleGroup="$sides" />
+    <Label layoutX="14.0" layoutY="139.0" text="Scores:" />
+    <Label layoutX="14.0" layoutY="157.0" text="Player:" />
+    <Label layoutX="14.0" layoutY="176.0" text="CPU:" />
+    <Label fx:id="lblPlayer" layoutX="56.0" layoutY="158.0" prefWidth="53.0" text="" />
+    <Label id="lblPlayer" fx:id="lblCPU" layoutX="56.0" layoutY="174.0" prefWidth="53.0" text="" />
+  </children>
+</AnchorPane>
